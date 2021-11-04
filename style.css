@@ -1,0 +1,37 @@
+body{
+    background-color: lightslategray;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+    background-color: lightblue;
+    border: black solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+header{
+    border: black solid 1px;
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+button{
+    background-color: lightsteelblue;
+    padding: 10px;
+}
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-gap: 5px;
+    margin: auto;
+    border: black solid 1px;
+    padding: 10px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    border: black solid 1px;
+    padding: 10px;
+}
