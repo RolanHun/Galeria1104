@@ -22,12 +22,12 @@ $(function () {
     let sablonElem=$(".kartya");
     for (let index = 0; index < kepData.length; index++) {
         let ujElem= sablonElem.clone().appendTo(galeriaSzulo);
-        const ujKartya=new Kartya(ujElem,kepData[index],index);
+        const ujKartya=new KisKartya(ujElem,kepData[index],index);
 }
     
     let nagyKepSzulo=$("#foKep");
     let foElem= sablonElem.clone().appendTo(nagyKepSzulo);
-    const nagyKartya=new Kartya(foElem,kepData[aktIndex],aktIndex);
+    const nagyKartya=new Kartya(foElem,kepData[aktIndex]);
     $("#jobb").click(jobbra);
     $("#bal").click(balra);
     sablonElem.remove();
